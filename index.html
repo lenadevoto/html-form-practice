@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Student and Faculty Survey</title>
+    </head>
+    <body>
+        <h1>Student and Faculty Survey Form</h1>
+        <form method="post">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label>
+                        First name
+                        <input type="text" name="first_name">
+                    </label>
+                </div>
+
+
+                <div>
+                    <label>
+                        Last name
+                        <input type="text" name="last_name">
+                    </label>
+                </div>
+
+
+                <div>
+                    <label>
+                        Email address
+                        <input type="email" name="email_address">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Choose your favorite programming language</p>
+                    <input type="radio" id="html" name="choose_language" value="html">
+                    <label for="html">HTML</label>
+                    <input type="radio" id="css" name="choose_language" value="css">
+                    <label for="css">CSS</label>
+                    <input type="radio" id="javaScript" name="choose_language" value="java_script">
+                    <label for="javaScript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <label for="current_date">Current date</label>
+                    <input type="date" id="current_date" name="current_date">
+                </div>
+
+                <div>
+                    <label for="newsletter">Sign up for Newsletter</label>
+                    <input type="checkbox" id="newsletter">
+                </div>
+
+                <div>
+                    <label for="terms">Agree to terms and conditions</label>
+                    <input type="checkbox" id="terms">
+                </div>
+
+
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+
+
+            </fieldset>
+        </form>
+    </body>
+
+
+</html>
